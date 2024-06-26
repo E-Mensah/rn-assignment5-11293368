@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, ScrollView, Switch  } from 'react-native'
 import { FontAwesome } from '@expo/vector-icons';
+import { StatusBar } from 'react-native';
 
 const LightSettingScreen = () => {
 

@@ -64,5 +64,5 @@ The layout of this screen was much simpler so I didn't create any custom compone
 
 <br>
 
-![s1](./screenshots/Screenshot%206.png)
+![s1](./screenshots/D2.png)
 

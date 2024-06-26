@@ -30,8 +30,8 @@ export default function App() {
           height: 80,
           paddingTop: 5,
           paddingBottom: 12,
-          borderColor:  'white',
-          backgroundColor: 'white'  //#2f2b45
+          borderColor:  '#2f2b45',
+          backgroundColor: '#2f2b45'  //#2f2b45
         },
         tabBarLabelStyle: {
           fontSize: 14,
@@ -47,7 +47,7 @@ export default function App() {
        }}
       />
       <Tab.Screen name='My Cards' 
-      component={DarkSettingScreen}
+      component={LightSettingScreen}
       options={{ title: 'My Cards',
         headerShown: false,
         tabBarIcon: () => getTabBarIcon(require('./Components/Images/myCards.png')),
@@ -74,6 +74,11 @@ export default function App() {
     //<LightSettingScreen />
     /*
 
+    <StatusBar 
+            backgroundColor="#fafafd" 
+            barStyle='light-content'   
+            translucent={false}   
+            />
     first:
     
 
@@ -81,7 +86,6 @@ export default function App() {
     - gear-complex
     - credit-card-front
     - house-window
-    - angle-right   
 
   
     */

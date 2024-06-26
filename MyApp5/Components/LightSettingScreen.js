@@ -13,7 +13,11 @@ const LightSettingScreen = () => {
 
   return (
     <ScrollView style={{paddingLeft: 20, paddingRight: 15, backgroundColor: 'white', }}>
-        <StatusBar style="auto" />
+        <StatusBar 
+            backgroundColor="#fafafd" 
+            barStyle='light-content'   
+            translucent={false}   
+            />
         
         <Text style={{textAlign: 'center', fontWeight: '500', fontSize: 25, color: 'black', marginBottom: 80, marginTop: 20}}>Settings</Text>
 
